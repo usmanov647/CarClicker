@@ -1,0 +1,23 @@
+img {
+	/*object-fit: cover;*/
+	width: 90%;
+	height: 90%;
+}
+
+div {
+	display: flex;
+}
+
+.image_block {
+	flex: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+	display: flex;
+}
+
+input {
+	margin: 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Car Clicker Web App</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="image_block">
+		<p id="car_name">0</p>
+		<img id="image">
+		<p id="num_clicks">0</p>
+	</div>
+	<button id="admin-button">Admin</button>
+	<form> <!-- style="display:none"> -->
+		Car Name: <input type="text" id="admin-car-name"><br>
+		Car Url: <input type="text" id="admin-car-url"><br>
+		Clicks <input type="text" id="admin-car-clicks"><br>
+		<input id="save-button" type="button" value="Save">
+		<input id="cancel-button" type="button" value="Cancel">
+	</form>
+	<script src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
