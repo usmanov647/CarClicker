@@ -1,7 +1,7 @@
 function Car(name, ind){
 	this.name = name;
 	this.index = ind;
-	this.imageLink = name+'.jpg';
+	this.imageLink = 'images/' + name + '.jpg';
 	this.numOfClicks = 0;
 	this.incrementClicks = function(){
 		this.numOfClicks++;
